@@ -6,25 +6,16 @@ export default function RootLayout() {
       <Stack.Screen 
         name="index" 
         options={{ 
-          title: 'Главная',
-          headerStyle: { backgroundColor: '#f0f8ff' },
-          headerTintColor: '#2c3e50',
+          title: 'Лаунчскрин',
+          headerShown: false,
         }} 
       />
       <Stack.Screen 
-        name="ContactListScreen" 
+        name="home" 
         options={{ 
-          title: 'Список контактов',
-          headerStyle: { backgroundColor: '#fff' },
-          headerTintColor: '#2c3e50',
-        }} 
-      />
-      <Stack.Screen 
-        name="ContactDetailScreen" 
-        options={{ 
-          title: 'Детали контакта',
-          headerStyle: { backgroundColor: '#fff' },
-          headerTintColor: '#2c3e50',
+          title: 'Галерея',
+          headerStyle: { backgroundColor: '#1a1a2e' },
+          headerTintColor: '#fff',
         }} 
       />
     </Stack>
