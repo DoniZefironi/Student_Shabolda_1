@@ -6,10 +6,6 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Книга контактов</Text>
-      <Text style={styles.subtitle}>Лабораторная работа №14</Text>
-      <Text style={styles.description}>
-        Навигация в React Native
-      </Text>
       
       <View style={styles.buttonContainer}>
         <Button
